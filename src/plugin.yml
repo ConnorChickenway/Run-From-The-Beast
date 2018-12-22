@@ -1,0 +1,8 @@
+name: RFTB
+author: ConnorChickenway
+version: 0.1
+main: mx.connorchickenway.rftb.RFTB
+softdepend: [Vault]
+commands:
+  rftb: 
+  

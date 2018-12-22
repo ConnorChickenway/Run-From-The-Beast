@@ -1,0 +1,38 @@
+#forbids the player to throw objects when in game!
+no_drop: true
+#Option that allows to "reset" the chests
+new_inventory_chest: true
+#prefix beast in game#
+prefix_beast: '&c&lBEAST&f '
+#seconds for liberate beast!#
+liberate_beast: 10
+#time#
+time_game: 300
+#start game#
+start_game: 30
+#signs#
+sign: 
+  attached: 
+    lobby: '95:5'
+    pre-game: '95:4'
+    game: '95:14'
+    finish: '95:10'
+  status: 
+    lobby: '&aWaiting'
+    pre-game: '&eStarting'
+    game: '&cIn-Game'
+    finish: '&5Finish'
+  lines:
+    - '&lRFTB'
+    - '%status%'
+    - 'Map: %map%'
+    - '%online_players%/%max_players%'
+items: 
+  return_lobby: 
+    name: '&c&lReturn to Lobby &7(Right Click)'  
+    material: BED
+    durability: 0
+    position: '8' 
+  compass_target: 
+    name: '&a&lPlayer Tracker &7(Right Click)'
+    position: 4

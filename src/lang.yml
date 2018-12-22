@@ -1,0 +1,63 @@
+join_arena: '&a%player% &7joined the game (&a%online_players%&7/&a%max_players%&7)'
+leave_arena: '&c%player% &7leave the game (&c%online_players%&7/&c%max_players%&7)'
+arena_full: '&cThe arena is full!'
+arena_in_game: '&cThe arena is in game!'
+arena_finish: '&cThe arena is finished!' 
+arena_drawn: '&cThe game has been drawn!'
+necessary_players: '&cThe countdown has been cancelled, because the minimum number of players is lower'
+start_game: '&7The game starts in &e%count% &7%seconds%!'
+liberate_beast: '&7The beast will be liberated in &c%count% &7%seconds%!'
+has_liberate: '&cThe beast has been liberated!'
+beast_win: '&cThe beast has won!'
+runners_win: '&aThe runners has won!'
+beast_kill: '&c%player% &7was killed by &cThe Beast!'
+runner_kill: '&cThe Beast &7was killed by &c%player%!'
+runner_death: '&c%player% &7has died!'
+beast_death: '&cThe beast &7has died!'
+compass_target: '&7The compass is now aimed at the player &a%player%.' 
+seconds: 'second;seconds'
+#scoreboard_arena#
+scoreboard: 
+  name: '&e&lRFTB'
+  format_date: dd/MM/yy
+  # LOBBY
+  lobby:
+    scores:
+    - '&7%date%'
+    - '&4'
+    - 'Players: &a%online_players%/%max_players%'
+    - '&3'
+    - '&fWaiting...'
+    - '&2'
+    - '&fMap: &a%map%'
+    - '&1'
+    - '&ewww.example.org'
+  
+  # PREGAME  
+  pre-game:
+    scores:
+    - '&7%date%'
+    - '&4'
+    - '&fPlayers: &a%online_players%/%max_players%'
+    - '&3'
+    - '&fStarting in &a%count%s'
+    - '&2'
+    - '&fMap: &a%map%'
+    - '&1'
+    - '&ewww.example.org'
+  
+  # GAME 
+  game:
+    #BEAST;RUNNERS#
+    roles: 'Beast;Runner'
+    scores:
+    - '&7%date%'
+    - '&f'
+    - '&fRole: &a%role%'
+    - '&f'
+    - '&fRunners: %alive_runners%'
+    - '&fTime Left: &a%time_left%'
+    - '&f'
+    - '&fMap: &a%map%'
+    - '&8'
+    - '&ewww.example.org'
